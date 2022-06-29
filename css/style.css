@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #ac4040 !important;
+}
+
+.first_block {
+    background-color: #964242;
+    width: 100%;
+    height: 2000px;
+}
+
+.first_title {
+    font-size: 80px;
+    color: #fff9d7;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.first_text {
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 1px !important;
+    margin-top: -30px;
+}
+
+.second_block {
+    background-color: #e9deb8;
+    position: absolute;
+    margin-top: 90px;
+    width: 100%;
+    height: 1000px;
+    z-index: 9999;
+}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #e9deb8;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.author_link {
+    z-index: 9000;
+    position: absolute;
+    margin-top: 140px;
+    font-size: 32px;
+    margin-left: 110px;
+    color:#c1ba99;
+    font-family: 'Permanent Marker', cursive;
+    transition: .3s;
+}
+
+.author_link:hover {
+    color:#d6cea6;
+    text-decoration: none;
+}
+
+.second_title {
+    font-size: 30px;
+    text-align: center;
+    color:#d6cea6;
+}
+
+.red_button {
+    background: rgb(172,64,64);
+    background: linear-gradient(90deg, rgba(172,64,64,1) 30%, rgba(111,45,45,1) 70%);
+    color:#d6cea6;
+    border: none;
+    font-size: 28px;
+    width: 100%;
+    padding: .5em;
+    margin-top: 100px;
+}
+
+.my_edit_card {
+    background: rgba(140,55,55,1);
+    background: linear-gradient(90deg, rgba(140,55,55,1) 30%, rgba(82,33,33,1) 70%);
+    color:#d6cea6;
+}
+
+.third_block {
+    background-color: #ac4040;
+    height: 2500px;
+    margin-top: 2000px;
+    width: 100%;
+}
+
+
+.third_title {
+    z-index: 9999;
+    font-size: 30px;
+    color:#471919;
+}
